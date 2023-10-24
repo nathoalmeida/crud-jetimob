@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/livros/novo', 'LivrosController@create');
+Route::get('/livros/novo' , 'App\Http\Controllers\LivrosController@create');
