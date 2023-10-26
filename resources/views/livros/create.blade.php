@@ -17,5 +17,6 @@
         <label for="">Resenha: </label> </br>
         <textarea name="resenha" cols="30" rows="20"></textarea> </br>
         <button>Salvar</button>
+        </form>
 </body>
 </html>

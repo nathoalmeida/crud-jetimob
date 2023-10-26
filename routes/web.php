@@ -21,4 +21,6 @@ Route::get('/livro/novo' , 'App\Http\Controllers\LivrosController@create');
 Route::post('/livro/novo' , 'App\Http\Controllers\LivrosController@store')->name('cadastrar_livro');
 Route::get('/livro/ver/{id}','App\Http\Controllers\LivrosController@show');
 Route::get('livro/editar/{id}','App\Http\Controllers\LivrosController@edit');
-Route::put('/livro/editar/{id}','App\Http\Controllers\LivrosController@update')->name("alterar_livro");
+Route::put('/livro/editar/{id}', 'App\Http\Controllers\LivrosController@update')->name('alterar_livro');
+Route::get('/livro/excluir/{id}','App\Http\Controllers\LivrosController@delete');
+Route::delete('/livro/excluir/{id}','App\Http\Controllers\LivrosController@destroy')->name('excluir_livro');

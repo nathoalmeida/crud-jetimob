@@ -18,5 +18,6 @@
         <label for="">Resenha: </label> </br>
         <textarea name="resenha" >{{ $livro->resenha }}</textarea> </br>
         <button>Salvar</button>
+    </form>
 </body>
 </html>
